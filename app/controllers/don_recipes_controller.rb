@@ -1,6 +1,6 @@
 class DonRecipesController < ApplicationController
   def home
-    redirect_to :action => "date", :recipe_date => Date.today.to_s
+    redirect_to :action => "date", :recipe_date => "20160916"
   end
 
   def date
