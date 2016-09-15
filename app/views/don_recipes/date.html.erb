@@ -1,2 +1,19 @@
-<h1>DonRecipes#date</h1>
-<p>Find me in app/views/don_recipes/date.html.erb</p>
+<% provide(:title, @donburi.name) %>
+<%= image_tag 'logo.png' %>
+
+<% if @donburi.nil? %>
+  
+  not found
+
+<% else %>
+
+  <%= image_tag @donburi.snapshot_url %>
+  <p><%= @donburi.name %></p>
+  <p>材料：<%= @donburi.zairyo %></p>
+  <p>調味料：<%= @donburi.chomiryo %></p>  
+  <%= link_to image_tag('go_cookpad.png'), @donburi.cookpad_url %>
+  <%= link_to image_tag('left.png'), tomorrow_or_sharp(@donburi.upload_date) %>
+  <%= @donburi.upload_date.to_s %>
+  <%= link_to image_tag('right.png'), yesterday_or_sharp(@donburi.upload_date) %>
+  
+<% end %>
