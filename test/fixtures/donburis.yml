@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  upload_date: 2016-09-16
+  snapshot_url: MyString
+  zairyo: MyString
+  chomiryo: MyString
+  cookpad_url: MyString
+
+two:
+  name: MyString
+  upload_date: 2016-09-16
+  snapshot_url: MyString
+  zairyo: MyString
+  chomiryo: MyString
+  cookpad_url: MyString
