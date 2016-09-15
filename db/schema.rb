@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160915152245) do
+ActiveRecord::Schema.define(version: 20160915230858) do
 
   create_table "donburis", force: :cascade do |t|
     t.string   "name"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20160915152245) do
     t.string   "cookpad_url"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+    t.string   "catchcopy"
   end
 
 end
