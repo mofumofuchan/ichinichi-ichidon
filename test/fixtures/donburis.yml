@@ -1,17 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
+20160916:
+  name: セロリとベーコンのマヨ炒め 
   upload_date: 2016-09-16
-  snapshot_url: MyString
-  zairyo: MyString
-  chomiryo: MyString
-  cookpad_url: MyString
+  snapshot_url: https://img.cpcdn.com/recipes/3305461/280/38c447d7d8255738cc3ff7ecec68715b.jpg
+  zairyo: セロリ，ベーコン
+  chomiryo: マヨネーズ
+  cookpad_url: http://cookpad.com/recipe/3305461
 
 two:
-  name: MyString
-  upload_date: 2016-09-16
-  snapshot_url: MyString
-  zairyo: MyString
-  chomiryo: MyString
-  cookpad_url: MyString
+  name: きのこ豚丼
+  upload_date: 2016-09-17
+  snapshot_url: https://img.cpcdn.com/recipes/653266/280/76d2a3811e0fc161130dc23dc854c4f7.jpg
+  zairyo: 豚こま切れ肉，好きなきのこ
+  chomiryo: 砂糖，酒，醤油，みりん
+  cookpad_url: http://cookpad.com/recipe/653266

@@ -1,8 +1,8 @@
 <%= image_tag 'logo.png' %>
-<%= image_tag 'https://img.cpcdn.com/recipes/653266/280/76d2a3811e0fc161130dc23dc854c4f7.jpg' %>
+<%= image_tag Donburi.second.snapshot_url %>
 
-<p>きのこ豚丼</p>
-<p>材料：豚こまぎれ肉，好きなきのこ</p>
-<p>調味料：砂糖，酒，醤油，みりん</p>
+<p><%= Donburi.second.name %></p>
+<p>材料：<%= Donburi.second.zairyo %></p>
+<p>調味料：<%= Donburi.second.chomiryo %></p>
 
-<%= link_to image_tag('go_cookpad.png'), 'http://cookpad.com/recipe/653266' %>
+<%= link_to image_tag('go_cookpad.png'), Donburi.second.cookpad_url %>
