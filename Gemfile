@@ -12,8 +12,11 @@ gem 'sdoc', group: :doc
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
-  gem 'web-console'
   gem 'spring'
+end
+
+group :development do
+    gem 'web-console'
 end
 
 group :test do
