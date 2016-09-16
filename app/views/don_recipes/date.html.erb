@@ -20,13 +20,13 @@
       </div>
       <%= link_to image_tag('don_button.png'), @donburi.cookpad_url %>
       <p class="date">
-	<a class="arrow" href="<%= tomorrow_or_sharp(@donburi.upload_date)%>">
+	<a class="arrow" href="<%= yesterday_or_sharp(@donburi.upload_date)%>">
 	  <%= image_tag 'yesterday.png' %>
 	</a>
 	<%= @donburi.upload_date.to_s %>
-	<span class="arrow" href="<% yesterday_or_sharp(@donburi.upload_date)%>">
+	<a class="arrow" href="<%= tomorrow_or_sharp(@donburi.upload_date) %>">
 	  <%= image_tag 'tomorrow.png' %>
-	</span>
+	</a>
       </p>
     </div>
   </div>
