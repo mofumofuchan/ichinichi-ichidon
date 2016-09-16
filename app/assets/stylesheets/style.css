@@ -24,11 +24,17 @@ header {
 
 .main-image {
   width: 100%;
-  height: auto;
+  height: 300px;
+  position: relative;
+  top: 80px;
+  -moz-background-size:cover;
+  background-size:cover;
 }
 
 .content {
   width: 80%;
+  position: relative;
+  top: 80px;
   margin: 10px auto 30px;
   text-align: center;
 }
@@ -47,9 +53,10 @@ header {
 .cookpad img{
   width: 256px;
   height: 43px;
+
 }
 
 .arrow img{
-  width: 24px;
-  height: 24px;
+  width: 42px;
+  height: 33px;
 }
