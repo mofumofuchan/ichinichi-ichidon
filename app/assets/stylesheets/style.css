@@ -30,6 +30,7 @@ header {
 .content {
   width: 80%;
   margin: 10px auto 30px;
+  text-align: center;
 }
 
 .btn {
@@ -41,6 +42,11 @@ header {
 .date {
   margin-top: 15px;
   text-align: center;
+}
+
+.cookpad img{
+  width: 256px;
+  height: 43px;
 }
 
 .arrow img{
