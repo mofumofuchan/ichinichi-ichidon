@@ -6,7 +6,7 @@
 
 <% else %>
   <header>
-    <%= link_to image_tag('logo.png'), root_path %>
+    <%= link_to image_tag('logo.png', class: 'logo'), root_path %>
     <h1 class="title"><%= @donburi.name %></h1>
   </header>
 
@@ -18,7 +18,7 @@
         <p>材料：<%= @donburi.zairyo %></p>
         <p>調味料：<%= @donburi.chomiryo %></p>
       </div>
-      <%= link_to image_tag('don_button.png'), @donburi.cookpad_url %>
+      <%= link_to image_tag('don_button.png', class: 'btn'), @donburi.cookpad_url %>
       <p class="date">
 	<a class="arrow" href="<%= yesterday_or_sharp(@donburi.upload_date)%>">
 	  <%= image_tag 'yesterday.png' %>
@@ -30,9 +30,4 @@
       </p>
     </div>
   </div>
-
-
-
-  
-  
 <% end %>
