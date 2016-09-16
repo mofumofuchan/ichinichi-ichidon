@@ -1,19 +1,38 @@
 <% provide(:title, @donburi.name) %>
-<%= image_tag 'logo.png' %>
 
 <% if @donburi.nil? %>
   
   not found
 
 <% else %>
+  <header>
+    <%= link_to image_tag('logo.png'), root_path %>
+    <h1 class="title"><%= @donburi.name %></h1>
+  </header>
 
-  <%= image_tag @donburi.snapshot_url %>
-  <p><%= @donburi.name %></p>
-  <p>材料：<%= @donburi.zairyo %></p>
-  <p>調味料：<%= @donburi.chomiryo %></p>  
-  <%= link_to image_tag('go_cookpad.png'), @donburi.cookpad_url %>
-  <%= link_to image_tag('left.png'), tomorrow_or_sharp(@donburi.upload_date) %>
-  <%= @donburi.upload_date.to_s %>
-  <%= link_to image_tag('right.png'), yesterday_or_sharp(@donburi.upload_date) %>
+
+  <div class="wrapper">
+    <img src=<%= @donburi.snapshot_url %> class="main-image" alt="">
+    <div class="content">
+      <div class="material">
+        <p>材料：<%= @donburi.zairyo %></p>
+        <p>調味料：<%= @donburi.chomiryo %></p>
+      </div>
+      <%= link_to image_tag('don_button.png'), @donburi.cookpad_url %>
+      <p class="date">
+	<a class="arrow" href="<%= tomorrow_or_sharp(@donburi.upload_date)%>">
+	  <%= image_tag 'yesterday.png' %>
+	</a>
+	<%= @donburi.upload_date.to_s %>
+	<span class="arrow" href="<% yesterday_or_sharp(@donburi.upload_date)%>">
+	  <%= image_tag 'tomorrow.png' %>
+	</span>
+      </p>
+    </div>
+  </div>
+
+
+
+  
   
 <% end %>
