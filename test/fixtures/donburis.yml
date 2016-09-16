@@ -1,17 +1,81 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 20160916:
-  name: セロリとベーコンのマヨ炒め 
+  name: レンジで5分きのこ豚丼
   upload_date: 2016-09-16
-  snapshot_url: https://img.cpcdn.com/recipes/3305461/280/38c447d7d8255738cc3ff7ecec68715b.jpg
-  zairyo: セロリ，ベーコン
-  chomiryo: マヨネーズ
-  cookpad_url: http://cookpad.com/recipe/3305461
-
-two:
-  name: きのこ豚丼
-  upload_date: 2016-09-17
   snapshot_url: https://img.cpcdn.com/recipes/653266/280/76d2a3811e0fc161130dc23dc854c4f7.jpg
   zairyo: 豚こま切れ肉，好きなきのこ
   chomiryo: 砂糖，酒，醤油，みりん
   cookpad_url: http://cookpad.com/recipe/653266
+
+20160915:
+  name: NTKG 崩し納豆豆腐丼！卵かけご飯！
+  upload_date: 2016-09-15
+  snapshot_url: https://img.cpcdn.com/recipes/3964989/280/362e419f347d4830c6517e445c734b4c.jpg
+  zairyo: 納豆，豆腐，卵，ネギ
+  chomiryo: 醤油，ごま油
+  cookpad_url: http://cookpad.com/recipe/3964989
+
+20160914:
+  name: 仕込み1分激うまズボラ飯♡ちートマ丼
+  upload_date: 2016-09-14 
+  snapshot_url: https://img.cpcdn.com/recipes/3418922/280/a1fb439042f9dd61610f5cd30287036a.jpg
+  zairyo: ハム，トマト，スライスチーズ
+  chomiryo: マヨネーズ，塩，故障
+  cookpad_url: http://cookpad.com/recipe/3418922
+    
+20160913:
+  name: ズボラ飯！ たった3分！？ツナコーン丼 
+  upload_date: 2016-09-13 
+  snapshot_url: https://img.cpcdn.com/recipes/3452502/280/923ad0bb268c8e6de0f27b9666714f88.jpg
+  zairyo: コーン，ツナ，マヨネーズ
+  chomiryo: お好みソース
+  cookpad_url: http://cookpad.com/recipe/3452502
+
+20160912:
+  name: ズボラ飯♡腹ペコで食べたいハムエッグ丼♪
+  upload_date: 2016-09-12
+  snapshot_url: https://img.cpcdn.com/recipes/2566162/280/47e57f11e7b22c28addd2e481f58cdb4.jpg
+  zairyo: 卵，ハム，キャベツ
+  chomiryo: 塩，胡椒，醤油，マヨネーズ
+  cookpad_url: http://cookpad.com/recipe/2566162
+
+20160911:
+  name: ズボラひとりランチ❇たこ焼き丼 
+  upload_date: 2016-09-11
+  snapshot_url: https://img.cpcdn.com/recipes/3754618/280/968c969f6e91ad1e086fdb9d2d91404c.jpg
+  zairyo: 冷凍たこ焼き，キャベツ，かつお節，青のり
+  chomiryo: マヨネーズ，オタフクソース
+  cookpad_url: http://cookpad.com/recipe/3754618
+
+20160910:
+  name: 1人ご飯に！ズボラなマヨソース丼 
+  upload_date: 2016-09-10
+  snapshot_url: https://img.cpcdn.com/recipes/2088962/280/417d1315d56163b5e0f25efe950532e4.jpg
+  zairyo: キャベツ，卵
+  chomiryo: お好みソース，マヨネーズ
+  cookpad_url: http://cookpad.com/recipe/2088962
+
+20160909:
+  name: ネギ塩豚丼
+  upload_date: 2016-09-09
+  snapshot_url: https://img.cpcdn.com/recipes/2045659/280/967a34e603f649e9a83222c30a27dfb6.jpg
+  zairyo: 豚肉，ネギ，片栗粉
+  chomiryo: 塩，胡椒，ごま油
+  cookpad_url: http://cookpad.com/recipe/2045659
+
+20160908:
+  name: 
+  upload_date: 2016-09-08
+  snapshot_url: https://img.cpcdn.com/recipes/1322369/280/ac7043eaababa94adb802bfad9b3c3ab.jpg
+  zairyo: 鮭フレーク，味付け海苔
+  chomiryo: マヨネーズ
+  cookpad_url: http://cookpad.com/recipe/1322369
+
+20160907:
+  name: ●にんにく好きに捧ぐ☆ガーリック蒸鶏丼● 
+  upload_date: 2016-09-07
+  snapshot_url: https://img.cpcdn.com/recipes/903556/280/6561e0fcb67faf071341eda2fbb157ed.jpg
+  zairyo: 鶏もも肉，にんにく，ネギ
+  chomiryo: 塩
+  cookpad_url: http://cookpad.com/recipe/903556
